@@ -2,13 +2,16 @@
 
 var browserSync = require('browser-sync');
 var colors = require('colors');
+var program = require('commander');
 
-var url = process.argv[2];
+program
+    .option('-s, --site <siteurl>', 'The site to test')
+    .parse(process.argv);
 
-if (!url) {
+if (!program.site) {
     console.error("No url supplied!!!".red);
 } else {
     browserSync({
-        proxy: url
+        proxy: program.site
     });
 }
