@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "test live sites with browser sync across all devices",
   "main": "index.js",
+  "bin": {
+    "live-site-test": "./bin/index.js"
+  },
   "scripts": {
     "test": "node index.js"
   },
