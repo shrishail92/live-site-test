@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var browserSync = require('browser-sync');
 var colors = require('colors');
 
