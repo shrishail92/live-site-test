@@ -1,0 +1,29 @@
+{
+  "name": "live-site-test",
+  "version": "1.0.0",
+  "description": "test live sites with browser sync across all devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrishail92/live-site-test.git"
+  },
+  "keywords": [
+    "test",
+    "live",
+    "site",
+    "browser-sync"
+  ],
+  "author": "Shrishail Hosamani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrishail92/live-site-test/issues"
+  },
+  "homepage": "https://github.com/shrishail92/live-site-test#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "colors": "^1.1.2"
+  }
+}
